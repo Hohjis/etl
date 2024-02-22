@@ -3,8 +3,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import psycopg2
 
 # Authentication credentials
-client_id = '821518b576c74854859c9727052bdb6b'
-client_secret = 'e124007031b6485697ef98bee56590cc'
+client_id = '**********'
+client_secret = '***********'
 
 # Spotify API Configuration
 sy = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
@@ -13,11 +13,11 @@ sy = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
 ))
 
 db_config = {
-    'host': 'localhost',
-    'dbname': 'spotify_artists',
-    'port': '5432',
-    'user': 'yoki',
-    'password': 'spotify_etl'
+    'host': '*******',
+    'dbname': '*******',
+    'port': '******',
+    'user': '*******',
+    'password': '*********'
 }
 
 # Database Init
