@@ -12,7 +12,7 @@
 --
 
 CREATE TABLE artists (
-    id TEXT PRIMARY KEY,
+    id INTEGER,
     name TEXT,
     genres TEXT[],
     followers INTEGER,
